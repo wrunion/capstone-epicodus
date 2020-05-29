@@ -1,68 +1,77 @@
-#### Winter A. Runion
+## Winter A. Runion
+**Epicodus capstone project proposal, 5.29.2020**
 
-#### ADHD-PT
+### LGBTQ Resource Finder
+An app for members of the LGBTQ community to search for social services they may be eligible for.
+*****
+###### Background: UX Design
+_The UX design process has three basic steps: **research, design, and repeat.**_
 
-##### Description
-<!-- _A summary of what you envision the project becoming. This does not have to be detailed or even a set in stone, but rather a snapshot of your current goals_ -->
+_Since I'm currently studying UX Design - alongside my course work at Epicodus - I plan to integrate UX design best practices into my capstone project._
 
-An app that creates simple, easy-to-follow exercise plans based on user input. Designed to be easy to use on the go, with minimal setup on the user's part.
+### Project Goal
+The project's goal is twofold: 
+  1. To practice UX  principles and methods
+  2. To create an accessible and intuitive mobile-first site that lets users search for services such as food, housing, and childcare.
 
-For example, the user could enter that they have 15 minutes available, and want to work on at least one exercise for hand dexterity and one for leg stability, and the app would give a 15 minute mini-exercise plan that includes both of those things.
+###### Action Plan
+To meet my goal, I will:
+1. Research current resource finder apps: specifically 211info.org, and their corresponding mobile app.
 
-The dataset is a predefined set of exercises that were prescribed to me by my Physical Therapist.
+2. Design and administer surveys to current users of the 211 app.
 
-##### Use Case
-<!-- _Who are the main users? What problems are they facing that you will solve? What will it do for users? What is the purpose/goal of the project?_ -->
+3. Determine ways to improve upon the existing search features. 
 
-The primary user right now is me. I have Ehlers-Danlos Syndrome, a condition that causes hypermobility of the joints, and that can be treated effectively with physical therapy. 
+4. Sketch out several designs on paper and choose one to build out with React.
 
-The problem is that I also have ADHD, so even though I've been to a Physical Therapist and have a comprehensive list of exercises for various body systems, I inevitably forget about some or all of them. 
+5. Build a mobile demo app with React and test it again with the original survey respondants.
+*****
+<!-- ###### Background: LGBTQ Focus
 
-**This app would help me overcome a major barrier to treatement: executive dysfunction.** Starting a new exercise regiment is difficult for most people, but for me in this case, where there's a medical aspect and efficiency calculations to be done - as to which exercises I should do and how many and when - I spin my wheels and just get stuck.
+I chose to center the app's focus on the LGBTQ community because: 
+  * It's a cause I'm both a part of and passionate about
+  * It's clearly distinct from any services that are currently being offered, so that no claims of copyright infringement can be made. 
+  * It can still show general social services, such as food, housing, and childcare, so the scope of the search can stay essentially the same.
 
-A custom ADHD-PT App would solve the issue by calculating which exercises I should be doing on rotation, and displaying them to me on a timed schedule. 
+I chose to focus on a mobile build because:
 
-Then, instead of spending time overthinking, all I have to do is press a button, get an exercise, and then do it!
+  * "Mobile first" is an important design principle
+  * A mobile app is more accessible to vulnerable populations - not everyone has computer access, but most people have a phone. 
+  * I haven't yet created a mobile first build, so it's a good challenge!  -->
 
-##### Minimum Viable Product
-<!-- _List the absolute minimum features the project requires before it is considered in a pre-alpha state_ -->
- * App displays a diagrams and instructions for various physical therapy exercises
- * Each exercise is tagged and catalogued, according to area of the body, type of functionality it targets (ie balance, strength, mobility, dexterity, endurance)
- * User can enter: the amount of time they have, the equipment they have access to (yoga ball, hand weights, resistance band, or none), and whether they can sit, lie, or stand.
- * User can optionally enter: the body areas they want to focus on, how many different exercises they want. 
- * The app will calculate which exercises best fit the criteria, and will respond with images and instruction.  
+### MVP
+_List the absolute minimum features the project requires to meet this purpose or goal:_
+* A user survey that follows UX best practices
+* The compiled results of said survey
+* A mobile app that has:
+  * Search features
+  * Search results
+  * The ability to narrow results by demographic parameters once the search is complete.
+* Note: as this project is primarily focused on UX research and front-end design, dummy data will be used for the MVP.
 
-##### Tools for MVP
-<!-- _List the tools, frameworks, libraries, APIs, modules, resources, languages, etc that will be used to create your MVP. Be specific._ -->
- * React 
- * Redux
- * Redux middleware, including Thunk, for async actions. 
- * _WIP: somwhere to store the instructions and diagrams of the exercises. Possibly excel? Or a simple .json file. Ask Kent._
- * Materialize UI CSS framework, to design with a "mobile first" mindset.
-  <!-- * Since the dataset is pretty limited - around 20 or so exercises, each of which has a simple diagram and a short text description - I'll probably just create a single .json file and pull the data from there. I'll consider alternatives though.  -->
+###### Tools for MVP:
+* HTML/CSS/JavaScript
+* React
+* Materialize CSS library: to optimize the app for mobile viewing, and ensure accessibilty
 
-##### Additional Features
-<!-- _If you finish developing your MVP and have time to spare, what features do you want to work on next? Be specific._ -->
-_**My main stretch goal would be to create an algorhythm that makes sure I'm getting in enough of each exercise each week.**_ 
+* * *
 
-Other stretch goals may include:  
-* Embedded music that plays for the same amount of time you should spend on an exercise
-* "Acheivement badges" or animation type things that play once you've completed your exercises
-* Timers to remind you throughout the day to do your exercises
-* A back-end database that records your progress daily
+### Further Exploration
 
-##### Tools for Additional Features
-<!-- _List the tools, frameworks, libraries, APIs, modules, resources, languages, etc that will be used to create your additional features. Be specific._ -->
+* If I have time, my next step is to integrate an API. The city of New York has an open API that lists 1000+ social services available to women, so I could use that data, or a dummy API.
+* I would also do further research on accessibility, to make sure my app is accessible for all. 
 
-* Each of the stretch goals I listed has a variety of possible implementation strategies.
+###### Tools for Further Exploration
+* AXIOS - to query APIs
+* Materials on accessibility standards
 
-* If I have the time to add additional features, I'll determine the best route to take at that time.
+<!-- _In a perfect world I would:_
+* Continue the UX design process of "Research, Design, Repeat."
+  * Ask the original survey participants for feedback on my new app.
+  * Compile the results and determine what changes need to be made.
+  * Integrate those changes into my app.
+* Spend more time looking into accessibility standards, and making sure my app meets them.
+* Spend time learning tools like FIGMA, so that I could ask users for feedback on new ideas or features. -->
 
-##### Additional Information
-<!-- _Is there anything else you’d like your instructor to know?_ -->
-
-My ultimate goal would be to turn it into a mobile app, probably using React Native. 
-
-That's more than I'll be able to do in two weeks, so it's not part of this proposal, but I'll be building and planning with an eye toward converting to mobile. 
-
-I'm open to any feedback you might have!
+<!-- Data Source: 
+https://data.cityofnewyork.us/resource/pqg4-dm6b.json -->
