@@ -1,7 +1,7 @@
-### Winter A. Runion
+## Winter A. Runion
 **Epicodus capstone project proposal, 5.29.2020**
 
-### LGBTQ Resource Finder
+## LGBTQ Resource Finder
 _An app for members of the LGBTQ community to search for social services they may be eligible for._
 *****
 ### Background: UX Design
