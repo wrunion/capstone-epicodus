@@ -1,10 +1,10 @@
-## Winter A. Runion
+### Winter A. Runion
 **Epicodus capstone project proposal, 5.29.2020**
 
 ### LGBTQ Resource Finder
-An app for members of the LGBTQ community to search for social services they may be eligible for.
+_An app for members of the LGBTQ community to search for social services they may be eligible for._
 *****
-###### Background: UX Design
+### Background: UX Design
 _The UX design process has three basic steps: **research, design, and repeat.**_
 
 _Since I'm currently studying UX Design - alongside my course work at Epicodus - I plan to integrate UX design best practices into my capstone project._
@@ -14,7 +14,7 @@ The project's goal is twofold:
   1. To practice UX  principles and methods
   2. To create an accessible and intuitive mobile-first site that lets users search for services such as food, housing, and childcare.
 
-###### Action Plan
+### Action Plan
 To meet my goal, I will:
 1. Research current resource finder apps: specifically 211info.org, and their corresponding mobile app.
 
@@ -49,7 +49,7 @@ _List the absolute minimum features the project requires to meet this purpose or
   * The ability to narrow results by demographic parameters once the search is complete.
 * Note: as this project is primarily focused on UX research and front-end design, dummy data will be used for the MVP.
 
-###### Tools for MVP:
+### Tools for MVP:
 * HTML/CSS/JavaScript
 * React
 * Materialize CSS library: to optimize the app for mobile viewing, and ensure accessibilty
@@ -61,7 +61,7 @@ _List the absolute minimum features the project requires to meet this purpose or
 * If I have time, my next step is to integrate an API. The city of New York has an open API that lists 1000+ social services available to women, so I could use that data, or a dummy API.
 * I would also do further research on accessibility, to make sure my app is accessible for all. 
 
-###### Tools for Further Exploration
+### Tools for Further Exploration
 * AXIOS - to query APIs
 * Materials on accessibility standards
 
